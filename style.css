@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color:black;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2#conteinerPergunta {
+    align-items: center;
+    text-align: center;
+}
+
+#botao1 {
+    background-color: red;
+    font-size: 1em;
+    height: 120px;
+    width: 220px;
+    position: relative;
+    top: 70px;
+    margin-right: 40px;
+    margin-left: 130px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white
+}
+
+#botao2 {
+    background-color: green;
+    font-size: 1em;
+    height: 120px;
+    width: 220px;
+    position: relative;
+    top: 70px;
+    margin-left: 160px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white
+}
+
+#botao3 {
+    background-color: blue;
+    font-size: 1em;
+    height: 120px;
+    width: 220px;
+    position: relative;
+    top: 70px;
+    margin-left: 180px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+#proximo {
+    background-color: gray;
+    height: 60px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position:absolute;
+    left: 625px;
+}
+
+#resposta {
+    text-align:end;
+    font-size: 1.5em;
+    font-weight: bold;
+}
